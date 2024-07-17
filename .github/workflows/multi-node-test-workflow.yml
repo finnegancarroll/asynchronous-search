@@ -2,6 +2,8 @@ name: Multi node test workflow
 
 env:
   java_version: 21
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 # This workflow is triggered on pull requests to master
 on:
   pull_request:
